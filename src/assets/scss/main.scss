@@ -1,0 +1,25 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+$app-scope: '.app-scope';
+
+#{$app-scope} {
+	font-family: $font-family;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: $font-size-base;
+	line-height: $font-size-base;
+	color: $font-color-base;
+	text-align: center;
+}

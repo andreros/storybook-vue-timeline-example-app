@@ -1,0 +1,23 @@
+$timeline-event-root: '.timeline-event';
+
+#{$app-scope} {
+    #{$timeline-event-root} {
+        display: flex;
+        flex-direction: column;
+        border-right: $dark-red 1px solid;
+        padding-right: $spacing;
+
+        &__date {
+            color: $dark-red;
+            font-size: $font-size-base;
+            line-height: $font-size-base;
+        }
+
+        &__text {
+            color: $light-gray;
+            font-size: $spacing * 2;
+            line-height: $spacing * 2;
+            margin-top: -$spacing-small * 2;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+$timeline-root: '.timeline';
+
+#{$app-scope} {
+    #{$timeline-root} {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 60px;
+
+        &__border {
+            width: 100%;
+            border: $gray 3px solid;
+            margin: 0;
+        }
+
+        &__up-col,
+        &__down-col {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+        }
+
+        &__down-col {
+            padding-left: 150px;
+        }
+    }
+}
