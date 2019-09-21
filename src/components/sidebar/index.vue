@@ -1,19 +1,13 @@
 <template>
-	<div>
-		sidebar
-	</div>
+  <div class="">sidebar</div>
 </template>
 
 <script>
-
-
 export default {
-	name: "Sidebar",
-	components: {
-		
-	},
-	props: {
-		
-	}
-};
+    name:"Sidebar",
+}
 </script>
+
+<style>
+
+</style>
