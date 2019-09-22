@@ -1,14 +1,15 @@
 <template>
-  <div>
+  <div class=".sidebar-container">
       
-      <v-content>
-          
-      </v-content>
+      <div class="sidebar__title">
+          <h1>Sidebar</h1>
+      </div>
+
+      
   </div>
 </template>
 
 <script>
-
 
 export default {
     
@@ -17,5 +18,5 @@ export default {
 </script>
 
 <style>
-
+    
 </style>
