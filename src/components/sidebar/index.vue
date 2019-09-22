@@ -1,9 +1,17 @@
 <template>
-  <div class="">sidebar</div>
+  <div>
+      
+      <v-content>
+          
+      </v-content>
+  </div>
 </template>
 
 <script>
+
+
 export default {
+    
     name:"Sidebar",
 }
 </script>
