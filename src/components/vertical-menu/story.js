@@ -1,8 +1,9 @@
-import Sidebar from './index.vue';
+import verticalMenu from './index.vue';
 import { storiesOf } from '@storybook/vue';
 
 
-storiesOf(`Sidebar`, module)
+storiesOf(`Vertical Menu`, module)
+
     .addDecorator(() => ({
         template: `
         <div class="app-scope">
@@ -10,8 +11,8 @@ storiesOf(`Sidebar`, module)
         </div>`
     }))
     .add('Base', () => ({
-        components: {Sidebar},
+        components: {verticalMenu},
         template: `
-            <sidebar />
+            <vertical-menu />
         `
     }));

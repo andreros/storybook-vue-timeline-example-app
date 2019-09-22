@@ -1,0 +1,43 @@
+$vertical-menu-root: '.vertical-menu';
+
+#{$app-scope} {
+    #{$vertical-menu-root} {
+        display: flex;
+        flex-direction: column;
+        background-color: #090A0B;
+        width: 20%;
+        margin:5px;
+        border-radius: 10px;
+        justify-content: space-around;
+        
+        &__title{
+            color:red;
+        }
+
+        &__item{
+            
+            display: flex;
+            flex-direction: row;
+
+            margin: 5px;
+           
+
+            a{
+                text-decoration:none;
+                color: #7F8080;
+                border-radius: 5px;
+                padding: 5px 5px 5px 5px;
+                border-bottom: 1px solid #afafaf41;
+                flex-grow: 1;
+                align-self: flex-start;
+            }
+            a:hover{
+                background-color: #afafaf41;
+                color: #0DA03D;
+            }
+
+        }
+
+        
+    }
+}
